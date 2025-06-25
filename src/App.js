@@ -358,7 +358,7 @@ function App() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <SectionTitle>+91 7054201207</SectionTitle>
+          <SectionTitle></SectionTitle>
           <ContactForm
             action="https://formspree.io/f/mnqkzqzv"
             method="POST"
@@ -368,7 +368,7 @@ function App() {
             transition={{ duration: 0.7 }}
           >
             <Input type="text" name="name" placeholder="Amrita Yadav" required />
-            <Input type="email" name="email" placeholder="ayadav9095@gmail.com" required />
+            <Input type="email" name="email" placeholder="Gmail@gmail.com" required />
             <TextArea name="message" placeholder="Your Message" required />
             <Button type="submit">Send Message</Button>
           </ContactForm>
